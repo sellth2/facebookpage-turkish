@@ -1,0 +1,318 @@
+
+.page-top{
+    background-color: rgb(240,242,245);
+    color: rgb(28,30,33);
+    display: block;
+    font-family: Roboto, Arial;
+    background-size: auto;
+    font-size: 12px;
+    min-width: 500px;
+    padding: 72px 0 112px;
+    direction: ltr;
+    line-height: 16.08px;
+    height: 536px;
+}
+.toplam{
+    color: rgb(28,30,33);
+    display: flex;
+    flex-direction:row;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.img-yazi{
+    display: inline-block;
+    margin: auto;
+    text-align:left;
+    position: relative;
+    padding: 0;
+    padding-right: 32px;
+    margin-right: 0px;
+    width: 580px;
+    vertical-align: top;
+
+}
+.intro-logo{
+    
+    padding: 112px 0px 16px;
+    
+    font-size: 12px;
+    margin: auto;
+    
+}
+.logo{
+    margin: -28px;
+    height: 106px;
+    
+    text-align:left;
+    
+}
+h2{
+    
+    margin: 0px;
+    /* FONT-SIZE ADJUST*/
+    font-size: 28px;
+    
+    text-align: left;
+    letter-spacing: normal;
+    line-height: 32px;
+    padding: 0px 0px 20px;
+    font-weight: 100;
+    position: relative;
+    min-width: 400px;
+}
+.intro-right{
+    
+    margin: auto;
+    margin-left: 0px;
+    float: none;
+    line-height: 16.08px;
+    text-align:left;
+    
+    height: 372px;
+    width:396px;
+    position: relative;
+    padding: 0;
+}
+.login{
+    
+    background-color: rgb(255,255,255);
+    border-color: rgb(28,30,33);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+    display: inline-block;
+    margin: 40px 0 0;
+    padding: 10px 0 24px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 396px;
+    position: relative;
+    
+   
+}
+.mail, .password{
+    background-size: auto;
+    border-color: rgb(221,223,226);
+    border-style: solid;
+    background-color: rgb(255,255,255);
+    border-radius: 6px;
+    border-width: 1px;
+    border: 1px 1px 1px 1px;
+    font-size: 17px;
+    height: 22px;
+    width: 330px;
+    line-height: 16px;
+    padding: 14px 16px 16px 14px;
+    text-align: start;
+    background-clip: border-box;
+    box-shadow: none;
+    display: inline-block;
+}
+.mail{
+    display: inline-block;
+    cursor: text;
+}
+.mail-div, .password-div{
+    text-align: center;
+    width: 364px;
+    display: inline-block;
+    padding: 6px 0;
+}
+input:hover{
+    border-color: rgb(24,119,242);
+    border-style: solid;
+    border-width: 1px;
+}
+/* input:focus{
+    border-color: rgb(24,119,242) !important;
+    border-style: solid;
+    border-width: 1px;
+}
+input:focus-visible{
+    border-color: green !important;
+    border-style: solid;
+    border-width: 1px;
+} */
+.mail-div .mail:focus-visible,.mail-div .mail:focus{
+    border-color: rgb(242, 24, 24) !important;
+    border-style: solid;
+    border-width: 1px;
+}
+.button{
+    
+    background-color: rgb(24,119,242);
+    border-style: none;
+    border-color: white;
+    color: rgb(255,255,255);
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    font-stretch: 100%;
+    line-height: 48px;
+    vertical-align: middle;
+    text-decoration-color: rgb(255,255,255);
+    font-weight: 700;
+    text-align: center;
+    padding: 0 16px;
+    width: 332px;
+    box-sizing: content-box;
+    transition-property: background-color 0.45s, transform 0.15s;
+    transition-duration: 0.2s, 0.2s, 0.2s;
+    transition-timing-function: cubic-bezier(0.08, 0.52, 0.52, 1);
+}
+.div-button-login{
+    padding: 6px 0 0;
+    display: block;
+    text-align: center;
+    line-height: 16.08px;
+}
+.button:hover{
+    background-image: linear-gradient(rgb(20, 110, 228) 0 0);
+    
+}
+.form-login{
+    display: block;
+    text-align: center;
+    line-height: 16.08px;
+    
+    
+}
+.div-forget-password{
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+}
+.forget-password{
+    color: rgb(24,119,242);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 18.76px;
+}
+.forget-password:hover{
+    text-decoration: underline;
+}
+.famous-person-page:hover{
+    text-decoration: underline;
+}
+.empty-div{
+    align-items: center;
+    border-bottom-color: rgb(218,221,225);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+.div-new-account{
+    padding: 6px 0 0;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(28,30,33);
+    line-height: 16.08px;
+    width: 396px;
+    height: 48px;
+}
+.new-account{
+    background-color: rgb(66,183,42);
+    border-color: rgb(255,255,255);
+    border-radius: 6px;
+    color: rgb(255,255,255);
+    box-sizing: content-box;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 48px;
+    
+    padding: 0 16px;
+    position: relative;
+    text-align: center;
+    text-decoration-color: rgb(255,255,255);
+    transition-property: background-color 0.45s, box-shadow 0.15s, transform 0.15s;
+    transition-duration: 0.2s, 0.2s, 0.2s;
+    transition-timing-function: cubic-bezier(0.08, 0.52, 0.52, 1);
+    cursor: pointer;
+}
+.new-account:hover{
+    background-image: linear-gradient(rgb(44, 160, 21) 0 0);
+}
+
+.famous-person{
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.76px;
+    text-align: center;
+    margin: 28px 0 0;
+}
+.famous-person-page{
+    color: rgb(28,30,33);
+    cursor: pointer;
+}
+@media(max-width:1075px){
+    h2{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .page-top{
+        padding-left: 30px;
+    }
+}
+@media (max-width: 900px){
+    .page-top {
+        padding: 20px 0 164px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        flex-direction: column;
+    }
+    .toplam {
+        
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        text-align: center;
+        height: 496px;
+        min-width: 426px;
+        padding: 20px 0;
+        margin: 0 40px;
+    }
+    .intro-right {
+    
+        margin-top: 0;
+        margin-bottom: 0;
+        margin: auto;
+        line-height: 16.08px;
+       
+         
+    }
+    .intro-logo{
+        padding: 0 0 20px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        padding-bottom: 0;
+        width: 396px;
+        padding-left: 110px;
+    }
+    .login{
+        padding: 10px 0 24px;
+        margin: 40px 0 0;
+    }
+    .logo{
+        padding-left: 30px;
+    }
+}
